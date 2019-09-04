@@ -1,0 +1,200 @@
+[17-Nov-2018 18:18:51 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:18:51 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:18:51 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:19:06 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:19:06 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:23:59 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =session is not ok 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:23:59 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:24:00 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:24:11 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:24:11 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:24:12 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =session is not ok 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:24:12 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:24:12 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:26:06 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =session is not ok 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:26:06 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:26:07 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:26:07 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:26:08 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:26:09 Asia/Shanghai] PHP Warning:  Page_Passport_RegisterController->index Exception: cookie is not found in /Users/anguoyue/PhpstormProjects/gaga/src/controller/HttpBaseController.php:168
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Page/Passport/Page_Passport_RegisterController.php(16): HttpBaseController->checkUserCookie()
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/controller/HttpBaseController.php(94): Page_Passport_RegisterController->index()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): HttpBaseController->doIndex()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(115): Wpf_Web->run()
+#4 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(40): require_once('/Users/anguoyue...')
+#5 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:26:09 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:43:38 Asia/Shanghai] PHP Warning:  Page_Passport_RegisterController->index Exception: cookie is not found in /Users/anguoyue/PhpstormProjects/gaga/src/controller/HttpBaseController.php:168
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Page/Passport/Page_Passport_RegisterController.php(16): HttpBaseController->checkUserCookie()
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/controller/HttpBaseController.php(94): Page_Passport_RegisterController->index()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): HttpBaseController->doIndex()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(115): Wpf_Web->run()
+#4 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(40): require_once('/Users/anguoyue...')
+#5 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:43:38 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:43:42 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:43:42 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:43:50 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:43:50 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =session is not ok 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:43:50 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:43:50 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:43:50 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:43:57 Asia/Shanghai] PHP Warning:  Page_Passport_RegisterController->index Exception: cookie is not found in /Users/anguoyue/PhpstormProjects/gaga/src/controller/HttpBaseController.php:168
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Page/Passport/Page_Passport_RegisterController.php(16): HttpBaseController->checkUserCookie()
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/controller/HttpBaseController.php(94): Page_Passport_RegisterController->index()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): HttpBaseController->doIndex()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(115): Wpf_Web->run()
+#4 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(40): require_once('/Users/anguoyue...')
+#5 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:43:57 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:44:10 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:44:10 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:45:26 Asia/Shanghai] PHP Warning:  Api_User_UpdateController->insertUserCustoms Exception: BaseTable-insertDatainsert data error=array (
+  0 => '23000',
+  1 => 1062,
+  2 => 'Duplicate entry \'2b532995210e33f0edf740f3483b98faca196334\' for key \'userId\'',
+) in /Users/anguoyue/PhpstormProjects/gaga/src/model/BaseTable.php:106
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteUserCustomTable.php(47): BaseTable->insertData('siteUserCustom', Array, Array)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Api/User/Api_User_UpdateController.php(130): SiteUserCustomTable->insertCustomProfile(Array)
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Api/User/Api_User_UpdateController.php(115): Api_User_UpdateController->insertUserCustoms(Array, '2b532995210e33f...')
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Api/User/Api_User_UpdateController.php(91): Api_User_UpdateController->updateUserCustoms(Array, '2b532995210e33f...')
+#4 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Api/User/Api_User_UpdateControl in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:45:27 Asia/Shanghai] PHP Warning:  Api_User_UpdateController->insertUserCustoms Exception: BaseTable-insertDatainsert data error=array (
+  0 => '23000',
+  1 => 1062,
+  2 => 'Duplicate entry \'2b532995210e33f0edf740f3483b98faca196334\' for key \'userId\'',
+) in /Users/anguoyue/PhpstormProjects/gaga/src/model/BaseTable.php:106
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteUserCustomTable.php(47): BaseTable->insertData('siteUserCustom', Array, Array)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Api/User/Api_User_UpdateController.php(130): SiteUserCustomTable->insertCustomProfile(Array)
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Api/User/Api_User_UpdateController.php(115): Api_User_UpdateController->insertUserCustoms(Array, '2b532995210e33f...')
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Api/User/Api_User_UpdateController.php(91): Api_User_UpdateController->updateUserCustoms(Array, '2b532995210e33f...')
+#4 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Api/User/Api_User_UpdateControl in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:46:40 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[17-Nov-2018 18:46:40 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[17-Nov-2018 18:46:41 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[17-Nov-2018 18:46:41 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[17-Nov-2018 18:46:41 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[17-Nov-2018 18:46:42 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[17-Nov-2018 18:46:43 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[17-Nov-2018 18:46:43 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[17-Nov-2018 18:46:45 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[17-Nov-2018 18:48:08 Asia/Shanghai] PHP Warning:  Http_File_DownloadFileController-index Exception: it's msg attachment in /Users/anguoyue/PhpstormProjects/gaga/src/controller/Http/File/Http_File_DownloadFileController.php:29
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/HttpBaseController.php(94): Http_File_DownloadFileController->index()
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): HttpBaseController->doIndex()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(115): Wpf_Web->run()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(40): require_once('/Users/anguoyue...')
+#4 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:48:10 Asia/Shanghai] PHP Warning:  Http_File_DownloadFileController-index Exception: it's msg attachment in /Users/anguoyue/PhpstormProjects/gaga/src/controller/Http/File/Http_File_DownloadFileController.php:29
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/HttpBaseController.php(94): Http_File_DownloadFileController->index()
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): HttpBaseController->doIndex()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(115): Wpf_Web->run()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(40): require_once('/Users/anguoyue...')
+#4 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:48:15 Asia/Shanghai] PHP Warning:  Http_File_DownloadFileController-index Exception: it's msg attachment in /Users/anguoyue/PhpstormProjects/gaga/src/controller/Http/File/Http_File_DownloadFileController.php:29
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/HttpBaseController.php(94): Http_File_DownloadFileController->index()
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): HttpBaseController->doIndex()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(115): Wpf_Web->run()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(40): require_once('/Users/anguoyue...')
+#4 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:48:23 Asia/Shanghai] PHP Warning:  Http_File_DownloadFileController-index Exception: it's msg attachment in /Users/anguoyue/PhpstormProjects/gaga/src/controller/Http/File/Http_File_DownloadFileController.php:29
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/HttpBaseController.php(94): Http_File_DownloadFileController->index()
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): HttpBaseController->doIndex()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(115): Wpf_Web->run()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(40): require_once('/Users/anguoyue...')
+#4 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:53:12 Asia/Shanghai] PHP Warning:  Http_File_DownloadFileController-index Exception: it's msg attachment in /Users/anguoyue/PhpstormProjects/gaga/src/controller/Http/File/Http_File_DownloadFileController.php:29
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/HttpBaseController.php(94): Http_File_DownloadFileController->index()
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): HttpBaseController->doIndex()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(115): Wpf_Web->run()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(40): require_once('/Users/anguoyue...')
+#4 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:53:56 Asia/Shanghai] PHP Warning:  Http_File_DownloadFileController-index Exception: it's msg attachment in /Users/anguoyue/PhpstormProjects/gaga/src/controller/Http/File/Http_File_DownloadFileController.php:29
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/HttpBaseController.php(94): Http_File_DownloadFileController->index()
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): HttpBaseController->doIndex()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(115): Wpf_Web->run()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(40): require_once('/Users/anguoyue...')
+#4 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:58:20 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:58:20 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:58:21 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:58:31 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =session is not ok 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:58:31 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:58:31 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:58:31 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:58:31 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:58:56 Asia/Shanghai] PHP Warning:  Http_File_DownloadFileController-index Exception: it's msg attachment in /Users/anguoyue/PhpstormProjects/gaga/src/controller/Http/File/Http_File_DownloadFileController.php:29
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/HttpBaseController.php(94): Http_File_DownloadFileController->index()
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): HttpBaseController->doIndex()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(115): Wpf_Web->run()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(40): require_once('/Users/anguoyue...')
+#4 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 18:58:58 Asia/Shanghai] PHP Warning:  Http_File_DownloadFileController-index Exception: it's msg attachment in /Users/anguoyue/PhpstormProjects/gaga/src/controller/Http/File/Http_File_DownloadFileController.php:29
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/HttpBaseController.php(94): Http_File_DownloadFileController->index()
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): HttpBaseController->doIndex()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(115): Wpf_Web->run()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(40): require_once('/Users/anguoyue...')
+#4 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[17-Nov-2018 19:55:31 Asia/Shanghai] PHP Fatal error:  Cannot redeclare siteU2MessageTable::queryMessageByMsgId() in /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteU2MessageTable.php on line 173
+[17-Nov-2018 19:55:42 Asia/Shanghai] PHP Fatal error:  Cannot redeclare siteU2MessageTable::queryMessageByMsgId() in /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteU2MessageTable.php on line 173

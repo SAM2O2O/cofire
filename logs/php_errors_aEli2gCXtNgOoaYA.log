@@ -1,0 +1,10 @@
+[08-Dec-2018 17:26:37 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =session is not ok 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[08-Dec-2018 17:26:37 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[08-Dec-2018 17:26:38 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[08-Dec-2018 17:26:47 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[08-Dec-2018 17:26:47 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111

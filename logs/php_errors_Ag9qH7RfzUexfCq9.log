@@ -1,0 +1,83 @@
+[08-Dec-2018 17:47:55 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[08-Dec-2018 17:47:55 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[08-Dec-2018 17:47:55 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[08-Dec-2018 17:49:56 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[08-Dec-2018 17:50:00 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 22:54:47 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 22:54:47 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 22:54:47 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 22:54:59 Asia/Shanghai] PHP Warning:  Page_Passport_RegisterController->index Exception: cookie is not found in /Users/anguoyue/PhpstormProjects/gaga/src/controller/HttpBaseController.php:168
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Page/Passport/Page_Passport_RegisterController.php(16): HttpBaseController->checkUserCookie()
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/controller/HttpBaseController.php(94): Page_Passport_RegisterController->index()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): HttpBaseController->doIndex()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(117): Wpf_Web->run()
+#4 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(35): require_once('/Users/anguoyue...')
+#5 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 22:54:59 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 22:55:11 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 22:55:11 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 22:58:52 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 22:58:52 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 23:00:55 Asia/Shanghai] PHP Warning:  Api_Passport_PasswordLoginController-rpc error_msg=loginName password is not match 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 23:01:02 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 23:01:02 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 23:01:20 Asia/Shanghai] PHP Warning:  ZalyCurl-_curl when run Router, unexpected error :Failed to connect to open.akaxin.com port 5208: Connection refused 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 23:01:20 Asia/Shanghai] PHP Warning:  ZalyCurl-requestWithActionByPb when run Router, unexpected error : 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 23:01:20 Asia/Shanghai] PHP Warning:  api.push.notification.error Exception: Failed to connect to open.akaxin.com port 5208: Connection refused in /Users/anguoyue/PhpstormProjects/gaga/src/lib/Util/ZalyCurl.php:165
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/Push/Push_Client.php(93): ZalyCurl->requestWithActionByPb('api.push.notifi...', Object(Zaly\Proto\Platform\ApiPushNotificationRequest), 'http://open.aka...', 'POST')
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/Message/Message_Client.php(578): Push_Client->sendNotification('U2-516017a7-156...', 1, 20, '516017a792302a5...', '126263f8b2b6528...', 'SAM2O2O apply t...')
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Square/MiniProgram_Square_ApplyController.php(52): Message_Client->proxyNewFriendApplyMessage('126263f8b2b6528...', '516017a792302a5...', '126263f8b2b6528...')
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(104): MiniProgram_Square_ApplyController->doRequest()
+#4 /Users/anguoyue/Phpstorm in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 23:01:20 Asia/Shanghai] PHP Warning:  im.stc.message sync MessageEventFriendRequest 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 23:01:20 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[04-Sep-2019 23:01:21 Asia/Shanghai] PHP Warning:  ZalyCurl-_curl when run Router, unexpected error :Failed to connect to open.akaxin.com port 5208: Connection refused 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 23:01:21 Asia/Shanghai] PHP Warning:  ZalyCurl-requestWithActionByPb when run Router, unexpected error : 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 23:01:21 Asia/Shanghai] PHP Warning:  api.push.notification.error Exception: Failed to connect to open.akaxin.com port 5208: Connection refused in /Users/anguoyue/PhpstormProjects/gaga/src/lib/Util/ZalyCurl.php:165
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/Push/Push_Client.php(93): ZalyCurl->requestWithActionByPb('api.push.notifi...', Object(Zaly\Proto\Platform\ApiPushNotificationRequest), 'http://open.aka...', 'POST')
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/Message/Message_Client.php(578): Push_Client->sendNotification('U2-516017a7-156...', 1, 20, '516017a792302a5...', '4d3d281f758b4cd...', 'SAM2O2O apply t...')
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Square/MiniProgram_Square_ApplyController.php(52): Message_Client->proxyNewFriendApplyMessage('4d3d281f758b4cd...', '516017a792302a5...', '4d3d281f758b4cd...')
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(104): MiniProgram_Square_ApplyController->doRequest()
+#4 /Users/anguoyue/Phpstorm in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 23:01:21 Asia/Shanghai] PHP Warning:  im.stc.message sync MessageEventFriendRequest 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 23:01:21 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[04-Sep-2019 23:01:23 Asia/Shanghai] PHP Warning:  ZalyCurl-_curl when run Router, unexpected error :Failed to connect to open.akaxin.com port 5208: Connection refused 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 23:01:23 Asia/Shanghai] PHP Warning:  ZalyCurl-requestWithActionByPb when run Router, unexpected error : 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 23:01:23 Asia/Shanghai] PHP Warning:  api.push.notification.error Exception: Failed to connect to open.akaxin.com port 5208: Connection refused in /Users/anguoyue/PhpstormProjects/gaga/src/lib/Util/ZalyCurl.php:165
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/Push/Push_Client.php(93): ZalyCurl->requestWithActionByPb('api.push.notifi...', Object(Zaly\Proto\Platform\ApiPushNotificationRequest), 'http://open.aka...', 'POST')
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/Message/Message_Client.php(578): Push_Client->sendNotification('U2-516017a7-156...', 1, 20, '516017a792302a5...', '5c9c60ad6597db0...', 'SAM2O2O apply t...')
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Square/MiniProgram_Square_ApplyController.php(52): Message_Client->proxyNewFriendApplyMessage('5c9c60ad6597db0...', '516017a792302a5...', '5c9c60ad6597db0...')
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(104): MiniProgram_Square_ApplyController->doRequest()
+#4 /Users/anguoyue/Phpstorm in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 23:01:23 Asia/Shanghai] PHP Warning:  im.stc.message sync MessageEventFriendRequest 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[04-Sep-2019 23:01:23 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138

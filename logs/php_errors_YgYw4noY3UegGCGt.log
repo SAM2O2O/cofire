@@ -1,0 +1,731 @@
+[12-Nov-2018 20:12:13 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =session is not ok 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:12:13 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:12:13 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:12:28 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:12:33 Asia/Shanghai] PHP Warning:  Http_File_DownloadFileController-index Exception: it's msg attachment in /Users/anguoyue/PhpstormProjects/gaga/src/controller/Http/File/Http_File_DownloadFileController.php:29
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/HttpBaseController.php(94): Http_File_DownloadFileController->index()
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): HttpBaseController->doIndex()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(113): Wpf_Web->run()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(41): require_once('/Users/anguoyue...')
+#4 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:12:43 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:12:52 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:12:57 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"20181112-d178caa6cac6b886ab75119b8a9401be3bb9e085.png","type":"add_gif","width":"632","height":"540"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:12:57 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:12:58 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('GP-dwdlp852-154...', 0, 5, Object(Zaly\Proto\Core\Message), 'cd4b83fbf31ff52...', 'dwdlp852ex', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#4  in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:22:07 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:22:08 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:22:08 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:22:10 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:22:12 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:41:33 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:41:33 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:41:33 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:41:36 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:41:36 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:41:44 Asia/Shanghai] PHP Warning:  Api_Passport_PasswordLoginController-rpc error_msg=loginName is not exist 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:02 Asia/Shanghai] PHP Warning:  im.stc.message sync MessageEventFriendRequest 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:02 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:42:03 Asia/Shanghai] PHP Warning:  im.stc.message sync MessageEventFriendRequest 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:04 Asia/Shanghai] PHP Warning:  im.stc.message sync MessageEventFriendRequest 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:05 Asia/Shanghai] PHP Warning:  im.stc.message sync MessageEventFriendRequest 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:06 Asia/Shanghai] PHP Warning:  im.stc.message sync MessageEventFriendRequest 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:07 Asia/Shanghai] PHP Warning:  im.stc.message sync MessageEventFriendRequest 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:08 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:08 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:42:08 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:42:08 Asia/Shanghai] PHP Warning:  im.stc.message sync MessageEventFriendRequest 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:08 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:42:09 Asia/Shanghai] PHP Warning:  im.stc.message sync MessageEventFriendRequest 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:09 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:42:09 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:42:10 Asia/Shanghai] PHP Warning:  im.stc.message sync MessageEventFriendRequest 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:10 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:42:11 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:42:11 Asia/Shanghai] PHP Warning:  im.stc.message sync MessageEventFriendRequest 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:11 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:42:13 Asia/Shanghai] PHP Warning:  im.stc.message sync MessageEventFriendRequest 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:13 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:42:14 Asia/Shanghai] PHP Warning:  im.stc.message sync MessageEventFriendRequest 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:14 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:42:15 Asia/Shanghai] PHP Warning:  im.stc.message sync MessageEventFriendRequest 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:15 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:42:16 Asia/Shanghai] PHP Warning:  im.stc.message sync MessageEventFriendRequest 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:16 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:42:17 Asia/Shanghai] PHP Warning:  im.stc.message sync MessageEventFriendRequest 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:17 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:42:18 Asia/Shanghai] PHP Warning:  im.stc.message sync MessageEventFriendRequest 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:18 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:42:26 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"20181112-d1649614588749c00d6e8b546133531a03275d08.jpeg","type":"add_gif","width":"1080","height":"1920"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:31 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"20181112-f5cd6112fb51e19cb57a9ae6485e47179c273564.gif","type":"add_gif","width":"500","height":"330"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:32 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:32 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:32 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('GP-sh9xbgnd-154...', 0, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', 'sh9xbgndnv', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#4  in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:42:33 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:33 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:33 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('GP-sh9xbgnd-154...', 0, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', 'sh9xbgndnv', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#4  in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:42:33 Asia/Shanghai] PHP Warning:  SiteGroupMessageTable->updatePointer Exception: BaseTable-insertDatainsert data error=array (
+  0 => '23000',
+  1 => 1062,
+  2 => 'Duplicate entry \'sh9xbgndnv-3b147f850c0513d3696cac2ab6d950f4e2304111-a15c7b4dc977\' for key \'groupId\'',
+) in /Users/anguoyue/PhpstormProjects/gaga/src/model/BaseTable.php:106
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteGroupMessageTable.php(236): BaseTable->insertData('siteGroupMessag...', Array, Array)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteGroupMessageTable.php(178): SiteGroupMessageTable->saveGroupPointer('sh9xbgndnv', '3b147f850c0513d...', 'a15c7b4dc97726f...', 9)
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Im/Cts/Im_Cts_UpdatePointerController.php(96): SiteGroupMessageTable->updatePointer('sh9xbgndnv', '3b147f850c0513d...', 'a15c7b4dc97726f...', 9)
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Im/Im_BaseController.php(19): Im_Cts_UpdatePointerController->doRequest(Object(Zaly\Proto\Site\ImCtsUpdatePointerRequest in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:36 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:42:38 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:42:57 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:57 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:42:57 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:43:04 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:44:02 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:44:02 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:44:03 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:44:18 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:44:18 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:44:19 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:44:19 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:44:19 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:44:19 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:44:19 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:44:20 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:44:20 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:44:20 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:44:21 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:44:21 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:44:21 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:44:21 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:44:22 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:44:22 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:44:22 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:44:22 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:44:23 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:47:55 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:47:56 Asia/Shanghai] PHP Warning:  im.stc.message sync MessageEventFriendRequest 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:47:56 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:48:00 Asia/Shanghai] PHP Warning:  mime_content_type(/Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/..//../attachment/logo/): failed to open stream: No such file or directory in /Users/anguoyue/PhpstormProjects/gaga/src/model/File/File_Manager.php on line 93
+[12-Nov-2018 20:48:00 Asia/Shanghai] PHP Warning:  api.file.download Exception: it's msg attachment in /Users/anguoyue/PhpstormProjects/gaga/src/controller/Api/File/Api_File_DownloadController.php:46
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/BaseController.php(274): Api_File_DownloadController->rpc(Object(Zaly\Proto\Site\ApiFileDownloadRequest), Object(Zaly\Proto\Core\TransportData))
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): BaseController->doIndex()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(113): Wpf_Web->run()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(41): require_once('/Users/anguoyue...')
+#4 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:48:18 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:48:23 Asia/Shanghai] PHP Warning:  mime_content_type(/Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/..//../attachment/logo/): failed to open stream: No such file or directory in /Users/anguoyue/PhpstormProjects/gaga/src/model/File/File_Manager.php on line 93
+[12-Nov-2018 20:48:23 Asia/Shanghai] PHP Warning:  Http_File_DownloadFileController-index Exception: it's msg attachment in /Users/anguoyue/PhpstormProjects/gaga/src/controller/Http/File/Http_File_DownloadFileController.php:29
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/HttpBaseController.php(94): Http_File_DownloadFileController->index()
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): HttpBaseController->doIndex()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(113): Wpf_Web->run()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(41): require_once('/Users/anguoyue...')
+#4 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:49:41 Asia/Shanghai] PHP Warning:  mime_content_type(/Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/..//../attachment/logo/): failed to open stream: No such file or directory in /Users/anguoyue/PhpstormProjects/gaga/src/model/File/File_Manager.php on line 93
+[12-Nov-2018 20:49:41 Asia/Shanghai] PHP Warning:  api.file.download Exception: it's msg attachment in /Users/anguoyue/PhpstormProjects/gaga/src/controller/Api/File/Api_File_DownloadController.php:46
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/BaseController.php(274): Api_File_DownloadController->rpc(Object(Zaly\Proto\Site\ApiFileDownloadRequest), Object(Zaly\Proto\Core\TransportData))
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): BaseController->doIndex()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(113): Wpf_Web->run()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(41): require_once('/Users/anguoyue...')
+#4 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:49:41 Asia/Shanghai] PHP Warning:  mime_content_type(/Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/..//../attachment/logo/): failed to open stream: No such file or directory in /Users/anguoyue/PhpstormProjects/gaga/src/model/File/File_Manager.php on line 93
+[12-Nov-2018 20:49:41 Asia/Shanghai] PHP Warning:  api.file.download Exception: it's msg attachment in /Users/anguoyue/PhpstormProjects/gaga/src/controller/Api/File/Api_File_DownloadController.php:46
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/BaseController.php(274): Api_File_DownloadController->rpc(Object(Zaly\Proto\Site\ApiFileDownloadRequest), Object(Zaly\Proto\Core\TransportData))
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): BaseController->doIndex()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(113): Wpf_Web->run()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(41): require_once('/Users/anguoyue...')
+#4 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:49:42 Asia/Shanghai] PHP Warning:  mime_content_type(/Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/..//../attachment/logo/): failed to open stream: No such file or directory in /Users/anguoyue/PhpstormProjects/gaga/src/model/File/File_Manager.php on line 93
+[12-Nov-2018 20:49:42 Asia/Shanghai] PHP Warning:  api.file.download Exception: it's msg attachment in /Users/anguoyue/PhpstormProjects/gaga/src/controller/Api/File/Api_File_DownloadController.php:46
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/BaseController.php(274): Api_File_DownloadController->rpc(Object(Zaly\Proto\Site\ApiFileDownloadRequest), Object(Zaly\Proto\Core\TransportData))
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): BaseController->doIndex()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(113): Wpf_Web->run()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(41): require_once('/Users/anguoyue...')
+#4 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:49:42 Asia/Shanghai] PHP Warning:  mime_content_type(/Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/..//../attachment/logo/): failed to open stream: No such file or directory in /Users/anguoyue/PhpstormProjects/gaga/src/model/File/File_Manager.php on line 93
+[12-Nov-2018 20:49:42 Asia/Shanghai] PHP Warning:  api.file.download Exception: it's msg attachment in /Users/anguoyue/PhpstormProjects/gaga/src/controller/Api/File/Api_File_DownloadController.php:46
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/BaseController.php(274): Api_File_DownloadController->rpc(Object(Zaly\Proto\Site\ApiFileDownloadRequest), Object(Zaly\Proto\Core\TransportData))
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): BaseController->doIndex()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(113): Wpf_Web->run()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(41): require_once('/Users/anguoyue...')
+#4 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:49:43 Asia/Shanghai] PHP Warning:  mime_content_type(/Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/..//../attachment/logo/): failed to open stream: No such file or directory in /Users/anguoyue/PhpstormProjects/gaga/src/model/File/File_Manager.php on line 93
+[12-Nov-2018 20:49:43 Asia/Shanghai] PHP Warning:  api.file.download Exception: it's msg attachment in /Users/anguoyue/PhpstormProjects/gaga/src/controller/Api/File/Api_File_DownloadController.php:46
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/BaseController.php(274): Api_File_DownloadController->rpc(Object(Zaly\Proto\Site\ApiFileDownloadRequest), Object(Zaly\Proto\Core\TransportData))
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): BaseController->doIndex()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(113): Wpf_Web->run()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(41): require_once('/Users/anguoyue...')
+#4 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:49:46 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:49:47 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:49:47 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:49:48 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:49:49 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:49:59 Asia/Shanghai] PHP Warning:  siteU2MessageTable->updatePointer Exception: BaseTable-insertDatainsert data error=array (
+  0 => '23000',
+  1 => 1062,
+  2 => 'Duplicate entry \'3b147f850c0513d3696cac2ab6d950f4e2304111-a15c7b4dc97726f1e6190dc\' for key \'userId\'',
+) in /Users/anguoyue/PhpstormProjects/gaga/src/model/BaseTable.php:106
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteU2MessageTable.php(265): BaseTable->insertData('siteU2MessagePo...', Array, Array)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteU2MessageTable.php(188): siteU2MessageTable->saveU2Pointer('3b147f850c0513d...', 'a15c7b4dc97726f...', '1', 14)
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Im/Cts/Im_Cts_UpdatePointerController.php(70): siteU2MessageTable->updatePointer('3b147f850c0513d...', 'a15c7b4dc97726f...', '1', 14)
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Im/Im_BaseController.php(19): Im_Cts_UpdatePointerController->doRequest(Object(Zaly\Proto\Site\ImCtsUpdatePointerRequest), Object(Zaly\Proto\Core\Transport in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:50:00 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:50:03 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:50:03 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:50:04 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:50:04 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:50:05 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:50:05 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:50:06 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:50:06 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:50:09 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:50:11 Asia/Shanghai] PHP Warning:  api.file.download Exception: it's msg attachment in /Users/anguoyue/PhpstormProjects/gaga/src/controller/Api/File/Api_File_DownloadController.php:46
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/BaseController.php(274): Api_File_DownloadController->rpc(Object(Zaly\Proto\Site\ApiFileDownloadRequest), Object(Zaly\Proto\Core\TransportData))
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): BaseController->doIndex()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(113): Wpf_Web->run()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(41): require_once('/Users/anguoyue...')
+#4 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:50:15 Asia/Shanghai] PHP Warning:  im.stc.message sync MessageEventFriendRequest 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:50:15 Asia/Shanghai] PHP Warning:  im.stc.message sync MessageEventFriendRequest 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:50:15 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:50:15 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:50:16 Asia/Shanghai] PHP Warning:  MiniProgram_Passport_AccountController-doRequest duckchat.session.clear userUd == 3b147f850c0513d3696cac2ab6d950f4e2304111 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:50:16 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:50:26 Asia/Shanghai] PHP Warning:  mime_content_type(/Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/..//../attachment/logo/): failed to open stream: No such file or directory in /Users/anguoyue/PhpstormProjects/gaga/src/model/File/File_Manager.php on line 93
+[12-Nov-2018 20:50:26 Asia/Shanghai] PHP Warning:  api.file.download Exception: it's msg attachment in /Users/anguoyue/PhpstormProjects/gaga/src/controller/Api/File/Api_File_DownloadController.php:46
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/BaseController.php(274): Api_File_DownloadController->rpc(Object(Zaly\Proto\Site\ApiFileDownloadRequest), Object(Zaly\Proto\Core\TransportData))
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): BaseController->doIndex()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(113): Wpf_Web->run()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(41): require_once('/Users/anguoyue...')
+#4 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:50:26 Asia/Shanghai] PHP Warning:  mime_content_type(/Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/..//../attachment/logo/): failed to open stream: No such file or directory in /Users/anguoyue/PhpstormProjects/gaga/src/model/File/File_Manager.php on line 93
+[12-Nov-2018 20:50:26 Asia/Shanghai] PHP Warning:  api.file.download Exception: it's msg attachment in /Users/anguoyue/PhpstormProjects/gaga/src/controller/Api/File/Api_File_DownloadController.php:46
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/BaseController.php(274): Api_File_DownloadController->rpc(Object(Zaly\Proto\Site\ApiFileDownloadRequest), Object(Zaly\Proto\Core\TransportData))
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): BaseController->doIndex()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(113): Wpf_Web->run()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(41): require_once('/Users/anguoyue...')
+#4 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:50:35 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:50:37 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:50:37 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:50:46 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:50:46 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:50:48 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:50:48 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:50:48 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:50:48 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:50:48 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:51:40 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:51:40 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:51:40 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:51:48 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:51:48 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:51:50 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:52:04 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:05 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:05 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:05 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:05 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:05 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:05 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:06 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:06 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:06 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:06 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:06 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:06 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:07 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:07 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:07 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:07 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:07 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:07 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:07 Asia/Shanghai] PHP Warning:  siteU2MessageTable->updatePointer Exception: BaseTable-insertDatainsert data error=array (
+  0 => '23000',
+  1 => 1062,
+  2 => 'Duplicate entry \'3b147f850c0513d3696cac2ab6d950f4e2304111-a15c7b4dc97726f1e6190dc\' for key \'userId\'',
+) in /Users/anguoyue/PhpstormProjects/gaga/src/model/BaseTable.php:106
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteU2MessageTable.php(265): BaseTable->insertData('siteU2MessagePo...', Array, Array)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteU2MessageTable.php(188): siteU2MessageTable->saveU2Pointer('3b147f850c0513d...', 'a15c7b4dc97726f...', '1', 20)
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Im/Cts/Im_Cts_UpdatePointerController.php(70): siteU2MessageTable->updatePointer('3b147f850c0513d...', 'a15c7b4dc97726f...', '1', 20)
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Im/Im_BaseController.php(19): Im_Cts_UpdatePointerController->doRequest(Object(Zaly\Proto\Site\ImCtsUpdatePointerRequest), Object(Zaly\Proto\Core\Transport in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:08 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:08 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:08 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:08 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:08 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:08 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:08 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:08 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:08 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:09 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:09 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:09 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:09 Asia/Shanghai] PHP Warning:  siteU2MessageTable->updatePointer Exception: BaseTable-insertDatainsert data error=array (
+  0 => '23000',
+  1 => 1062,
+  2 => 'Duplicate entry \'3b147f850c0513d3696cac2ab6d950f4e2304111-a15c7b4dc97726f1e6190dc\' for key \'userId\'',
+) in /Users/anguoyue/PhpstormProjects/gaga/src/model/BaseTable.php:106
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteU2MessageTable.php(265): BaseTable->insertData('siteU2MessagePo...', Array, Array)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteU2MessageTable.php(188): siteU2MessageTable->saveU2Pointer('3b147f850c0513d...', 'a15c7b4dc97726f...', '1', 23)
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Im/Cts/Im_Cts_UpdatePointerController.php(70): siteU2MessageTable->updatePointer('3b147f850c0513d...', 'a15c7b4dc97726f...', '1', 23)
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Im/Im_BaseController.php(19): Im_Cts_UpdatePointerController->doRequest(Object(Zaly\Proto\Site\ImCtsUpdatePointerRequest), Object(Zaly\Proto\Core\Transport in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:09 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:09 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:09 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:09 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:09 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:09 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:09 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:09 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:09 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:09 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:09 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:09 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:09 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:09 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:09 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:10 Asia/Shanghai] PHP Warning:  siteU2MessageTable->updatePointer Exception: BaseTable-insertDatainsert data error=array (
+  0 => '23000',
+  1 => 1062,
+  2 => 'Duplicate entry \'3b147f850c0513d3696cac2ab6d950f4e2304111-a15c7b4dc97726f1e6190dc\' for key \'userId\'',
+) in /Users/anguoyue/PhpstormProjects/gaga/src/model/BaseTable.php:106
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteU2MessageTable.php(265): BaseTable->insertData('siteU2MessagePo...', Array, Array)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteU2MessageTable.php(188): siteU2MessageTable->saveU2Pointer('3b147f850c0513d...', 'a15c7b4dc97726f...', '1', 29)
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Im/Cts/Im_Cts_UpdatePointerController.php(70): siteU2MessageTable->updatePointer('3b147f850c0513d...', 'a15c7b4dc97726f...', '1', 29)
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Im/Im_BaseController.php(19): Im_Cts_UpdatePointerController->doRequest(Object(Zaly\Proto\Site\ImCtsUpdatePointerRequest), Object(Zaly\Proto\Core\Transport in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:10 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:10 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:10 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:10 Asia/Shanghai] PHP Warning:  Message_Client->saveU2Message Exception: BaseTable-insertDatainsert data error=array (
+  0 => '23000',
+  1 => 1062,
+  2 => 'Duplicate entry \'U2-0eb5a89f-1542027130502\' for key \'msgId\'',
+) in /Users/anguoyue/PhpstormProjects/gaga/src/model/BaseTable.php:106
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteU2MessageTable.php(35): BaseTable->insertData('siteU2Message', Array, Array)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/Message/Message_Client.php(200): siteU2MessageTable->insertMessage(Array)
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/model/Message/Message_Client.php(70): Message_Client->saveU2Message('U2-0eb5a89f-154...', '0eb5a89f61ea538...', '3b147f850c0513d...', '0eb5a89f61ea538...', 5, Object(Zaly\Proto\Core\WebMessage), 1)
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(58): Message_Client->sendU2Message('U2-0eb5a89f-154...', '0eb5a89f61ea538...', '3b147f850c0513d...', '0eb5a89f61ea538...', 5, Object(Zaly\Proto\Core\Message))
+#4 /Users/ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:10 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:10 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', false)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequ in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:10 Asia/Shanghai] PHP Warning:  siteU2MessageTable->updatePointer Exception: BaseTable-insertDatainsert data error=array (
+  0 => '23000',
+  1 => 1062,
+  2 => 'Duplicate entry \'3b147f850c0513d3696cac2ab6d950f4e2304111-a15c7b4dc97726f1e6190dc\' for key \'userId\'',
+) in /Users/anguoyue/PhpstormProjects/gaga/src/model/BaseTable.php:106
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteU2MessageTable.php(265): BaseTable->insertData('siteU2MessagePo...', Array, Array)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteU2MessageTable.php(188): siteU2MessageTable->saveU2Pointer('3b147f850c0513d...', 'a15c7b4dc97726f...', '1', 30)
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Im/Cts/Im_Cts_UpdatePointerController.php(70): siteU2MessageTable->updatePointer('3b147f850c0513d...', 'a15c7b4dc97726f...', '1', 30)
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Im/Im_BaseController.php(19): Im_Cts_UpdatePointerController->doRequest(Object(Zaly\Proto\Site\ImCtsUpdatePointerRequest), Object(Zaly\Proto\Core\Transport in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:10 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:10 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:10 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:10 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:10 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:10 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:10 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:10 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:11 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:11 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:11 Asia/Shanghai] PHP Warning:  siteU2MessageTable->updatePointer Exception: BaseTable-insertDatainsert data error=array (
+  0 => '23000',
+  1 => 1062,
+  2 => 'Duplicate entry \'3b147f850c0513d3696cac2ab6d950f4e2304111-a15c7b4dc97726f1e6190dc\' for key \'userId\'',
+) in /Users/anguoyue/PhpstormProjects/gaga/src/model/BaseTable.php:106
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteU2MessageTable.php(265): BaseTable->insertData('siteU2MessagePo...', Array, Array)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteU2MessageTable.php(188): siteU2MessageTable->saveU2Pointer('3b147f850c0513d...', 'a15c7b4dc97726f...', '1', 36)
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Im/Cts/Im_Cts_UpdatePointerController.php(70): siteU2MessageTable->updatePointer('3b147f850c0513d...', 'a15c7b4dc97726f...', '1', 36)
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Im/Im_BaseController.php(19): Im_Cts_UpdatePointerController->doRequest(Object(Zaly\Proto\Site\ImCtsUpdatePointerRequest), Object(Zaly\Proto\Core\Transport in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:11 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:11 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:11 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:11 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:11 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:11 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:11 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:11 Asia/Shanghai] PHP Warning:  siteU2MessageTable->updatePointer Exception: BaseTable-insertDatainsert data error=array (
+  0 => '23000',
+  1 => 1062,
+  2 => 'Duplicate entry \'3b147f850c0513d3696cac2ab6d950f4e2304111-a15c7b4dc97726f1e6190dc\' for key \'userId\'',
+) in /Users/anguoyue/PhpstormProjects/gaga/src/model/BaseTable.php:106
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteU2MessageTable.php(265): BaseTable->insertData('siteU2MessagePo...', Array, Array)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteU2MessageTable.php(188): siteU2MessageTable->saveU2Pointer('3b147f850c0513d...', 'a15c7b4dc97726f...', '1', 39)
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Im/Cts/Im_Cts_UpdatePointerController.php(70): siteU2MessageTable->updatePointer('3b147f850c0513d...', 'a15c7b4dc97726f...', '1', 39)
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Im/Im_BaseController.php(19): Im_Cts_UpdatePointerController->doRequest(Object(Zaly\Proto\Site\ImCtsUpdatePointerRequest), Object(Zaly\Proto\Core\Transport in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:11 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:11 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:11 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:12 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:12 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method DuckChat_Message::finish_request() in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php:69
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php(62): DuckChat_Message->returnMessage('U2-0eb5a89f-154...', 1, 5, Object(Zaly\Proto\Core\Message), '3b147f850c0513d...', '0eb5a89f61ea538...', true)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Client.php(30): DuckChat_Message->send(104, Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/MiniProgram_BaseController.php(151): DuckChat_Client->doRequest(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendRequest))
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/MiniProgram/Gif/MiniProgram_Gif_IndexController.php(192): MiniProgram_BaseController->requestDuckChatInnerApi(104, 'duckchat.messag...', Object(Zaly\Proto\Plugin\DuckChatMessageSendReque in /Users/anguoyue/PhpstormProjects/gaga/src/model/DuckChat/DuckChat_Message.php on line 69
+[12-Nov-2018 20:52:12 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:12 Asia/Shanghai] PHP Warning:  siteU2MessageTable->updatePointer Exception: BaseTable-insertDatainsert data error=array (
+  0 => '23000',
+  1 => 1062,
+  2 => 'Duplicate entry \'3b147f850c0513d3696cac2ab6d950f4e2304111-a15c7b4dc97726f1e6190dc\' for key \'userId\'',
+) in /Users/anguoyue/PhpstormProjects/gaga/src/model/BaseTable.php:106
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteU2MessageTable.php(265): BaseTable->insertData('siteU2MessagePo...', Array, Array)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteU2MessageTable.php(188): siteU2MessageTable->saveU2Pointer('3b147f850c0513d...', 'a15c7b4dc97726f...', '1', 41)
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Im/Cts/Im_Cts_UpdatePointerController.php(70): siteU2MessageTable->updatePointer('3b147f850c0513d...', 'a15c7b4dc97726f...', '1', 41)
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Im/Im_BaseController.php(19): Im_Cts_UpdatePointerController->doRequest(Object(Zaly\Proto\Site\ImCtsUpdatePointerRequest), Object(Zaly\Proto\Core\Transport in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:52:12 Asia/Shanghai] PHP Warning:  siteU2MessageTable->updatePointer Exception: BaseTable-insertDatainsert data error=array (
+  0 => '23000',
+  1 => 1062,
+  2 => 'Duplicate entry \'3b147f850c0513d3696cac2ab6d950f4e2304111-a15c7b4dc97726f1e6190dc\' for key \'userId\'',
+) in /Users/anguoyue/PhpstormProjects/gaga/src/model/BaseTable.php:106
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteU2MessageTable.php(265): BaseTable->insertData('siteU2MessagePo...', Array, Array)
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/model/SiteU2MessageTable.php(188): siteU2MessageTable->saveU2Pointer('3b147f850c0513d...', 'a15c7b4dc97726f...', '1', 41)
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Im/Cts/Im_Cts_UpdatePointerController.php(70): siteU2MessageTable->updatePointer('3b147f850c0513d...', 'a15c7b4dc97726f...', '1', 41)
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/controller/Im/Im_BaseController.php(19): Im_Cts_UpdatePointerController->doRequest(Object(Zaly\Proto\Site\ImCtsUpdatePointerRequest), Object(Zaly\Proto\Core\Transport in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:53:00 Asia/Shanghai] PHP Warning:  A non-numeric value encountered in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 138
+[12-Nov-2018 20:55:48 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:55:49 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"7dfc61f3c14cfb52229881b525373d4c"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:55:54 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:55:55 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"7dfc61f3c14cfb52229881b525373d4c"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:56:19 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"7dfc61f3c14cfb52229881b525373d4c"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:56:19 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"7dfc61f3c14cfb52229881b525373d4c"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:56:19 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"7dfc61f3c14cfb52229881b525373d4c"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:56:23 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:56:24 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"7dfc61f3c14cfb52229881b525373d4c"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:56:24 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"7dfc61f3c14cfb52229881b525373d4c"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:56:24 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"7dfc61f3c14cfb52229881b525373d4c"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:56:53 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:56:58 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"20181112-fc57ea0912f89f6fcf999cac1cb612479f4e44ff.png","type":"add_gif","width":"417","height":"417"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:56:58 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:56:59 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"4e4a90b62b801b97ab057a6f7be07e72"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:57:01 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:57:03 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"4e4a90b62b801b97ab057a6f7be07e72"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:57:36 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"4e4a90b62b801b97ab057a6f7be07e72"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:57:36 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"4e4a90b62b801b97ab057a6f7be07e72"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:57:36 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"4e4a90b62b801b97ab057a6f7be07e72"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:57:36 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"4e4a90b62b801b97ab057a6f7be07e72"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:57:36 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"4e4a90b62b801b97ab057a6f7be07e72"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:57:37 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"4e4a90b62b801b97ab057a6f7be07e72"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:57:37 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"4e4a90b62b801b97ab057a6f7be07e72"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:57:37 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"7dfc61f3c14cfb52229881b525373d4c"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:57:37 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"7dfc61f3c14cfb52229881b525373d4c"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:57:37 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"7dfc61f3c14cfb52229881b525373d4c"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:57:38 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"7dfc61f3c14cfb52229881b525373d4c"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:57:38 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"4e4a90b62b801b97ab057a6f7be07e72"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[12-Nov-2018 20:57:38 Asia/Shanghai] PHP Warning:  MiniProgram_Gif_IndexController-doRequest post msg ={"gifId":"4e4a90b62b801b97ab057a6f7be07e72"} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111

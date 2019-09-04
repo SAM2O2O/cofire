@@ -1,0 +1,101 @@
+[19-Nov-2018 10:22:22 Asia/Shanghai] PHP Warning:  HttpBaseController-getUserIdByCookie error msg =session is not ok 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:22:22 Asia/Shanghai] PHP Warning:  Page_Passport_LoginController->index page.passport.login error=cookie is not found 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:22:22 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:22:34 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:23:13 Asia/Shanghai] PHP Warning:  page.version.password clientPwd=9952570900534909 serverPwd=9952570900534909 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:23:13 Asia/Shanghai] PHP Warning:  page.version.password oldVersion=10102 to newVersion=10103 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:23:15 Asia/Shanghai] site upgrade from 【10102】 to 【10103
+[19-Nov-2018 10:23:16 Asia/Shanghai] PHP Warning:  page.version.check array (
+  'versionCode' => 10103,
+  'versionName' => '1.1.3',
+  'upgradeErrCode' => 'success',
+  'upgradeErrInfo' => NULL,
+) 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:23:18 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:23:18 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:25:12 Asia/Shanghai] PHP Warning:  Http_File_DownloadFileController-index Exception: it's msg attachment in /Users/anguoyue/PhpstormProjects/gaga/src/controller/Http/File/Http_File_DownloadFileController.php:29
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/HttpBaseController.php(94): Http_File_DownloadFileController->index()
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): HttpBaseController->doIndex()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(115): Wpf_Web->run()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(36): require_once('/Users/anguoyue...')
+#4 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:25:14 Asia/Shanghai] PHP Warning:  manage.config.update ke=enableInvitationCode value=1 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:31:22 Asia/Shanghai] PHP Warning:  Invalid argument supplied for foreach() in /Users/anguoyue/PhpstormProjects/gaga/src/views/manage/group/indexList.php on line 77
+[19-Nov-2018 10:31:24 Asia/Shanghai] PHP Warning:  Http_File_DownloadFileController-index Exception: it's msg attachment in /Users/anguoyue/PhpstormProjects/gaga/src/controller/Http/File/Http_File_DownloadFileController.php:29
+Stack trace:
+#0 /Users/anguoyue/PhpstormProjects/gaga/src/controller/HttpBaseController.php(94): Http_File_DownloadFileController->index()
+#1 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Web.php(27): HttpBaseController->doIndex()
+#2 /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/init.php(115): Wpf_Web->run()
+#3 /Users/anguoyue/PhpstormProjects/gaga/src/index.php(36): require_once('/Users/anguoyue...')
+#4 {main} 
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:35:41 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:35:42 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:37:18 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:37:19 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:39:40 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:39:41 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:39:53 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:39:54 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:40:01 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:40:06 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:40:07 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:40:15 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:40:16 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:40:57 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:40:58 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:41:05 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:41:05 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:41:15 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:41:25 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:41:35 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:41:45 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:41:55 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:42:05 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:42:15 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:42:25 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:42:35 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:42:45 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:42:55 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
+[19-Nov-2018 10:43:00 Asia/Shanghai] PHP Warning:  Api_Site_ConfigController-checkSessionValid check session id  
+ in /Users/anguoyue/PhpstormProjects/gaga/src/lib/wpf/Wpf_Logger.php on line 111
